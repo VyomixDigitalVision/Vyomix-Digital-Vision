@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vyomix - Digital Marketing Solutions</title>
+  <meta name="description" content="We help businesses grow online with SEO, social media, and Google Ads.">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo">Vyomix Digital Vision</div>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content fade-in">
+      <h1 class="highlight-heading">Grow Your Business Online</h1>
+      <p class="fade-in">We help businesses reach their target audience, generate leads, and build their brand through powerful digital marketing strategies.</p>
+      <a href="contact.html" class="cta-button">Get a Free Consultation</a>
+    </div>
+  </section>
+
+  <section class="highlights">
+    <div class="highlight fade-in">
+      <h2 class="counter" data-target="5">0</h2>
+      <p>Years Experience</p>
+    </div>
+    <div class="highlight fade-in">
+      <h2 class="counter" data-target="200">0</h2>
+      <p>Avg Traffic Growth</p>
+    </div>
+    <div class="highlight fade-in">
+      <h2 class="counter" data-target="25">0</h2>
+      <p>Satisfied Clients</p>
+    </div>
+  </section>
+  
+
+  <section class="what-we-do fade-in">
+    <h2>How We Work</h2>
+    <p>We combine creative strategies with data-driven insights to help your business grow online. Our team works closely with you to understand your goals, analyze your market, and implement digital marketing campaigns that deliver real results.</p>
+    <div class="work-image">
+      <img src="images/how-we-work.jpg" alt="Digital Marketing Team">
+    </div>
+  </section>
+
+  <section class="process fade-in">
+    <h2>Our Digital Marketing Process</h2>
+    <div class="process-grid">
+      <div class="process-step">
+        <h3>1. Discovery</h3>
+        <p>We start by understanding your business goals, audience, and current digital presence to identify the best opportunities for growth.</p>
+      </div>
+      <div class="process-step">
+        <h3>2. Strategy</h3>
+        <p>Our team creates a custom digital marketing plan based on data, market research, and proven tactics tailored for your industry.</p>
+      </div>
+      <div class="process-step">
+        <h3>3. Execution</h3>
+        <p>We launch campaigns across SEO, PPC, social media, and content marketing, constantly optimizing for performance.</p>
+      </div>
+      <div class="process-step">
+        <h3>4. Reporting & Analysis</h3>
+        <p>We provide transparent reporting and actionable insights to measure results and plan the next steps for continuous growth.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="case-studies fade-in">
+    <h2>Success Stories</h2>
+    <div class="case-grid">
+      <div class="case-card">
+        <h3>Increased Traffic for XYZ Corp</h3>
+        <p>We helped XYZ Corp boost their organic search traffic by 150% in six months through technical SEO improvements and content strategy.</p>
+      </div>
+      <div class="case-card">
+        <h3>Improved ROI for ABC Co.</h3>
+        <p>Our targeted Google Ads campaigns reduced ABC Co.'s cost per lead by 40%, driving more sales with lower spend.</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="services-preview fade-in">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>SEO Optimization</h3>
+        <p>Rank higher in search results and grow traffic.</p>
+      </div>
+      <div class="service-card">
+        <div class="">
+          <img src="images/seo-icon.png" alt="">
+        </div>
+        <h3>SEO Optimization</h3>
+        <p>Boost your website’s rankings and attract more organic traffic.</p>
+      </div>
+      
+      <div class="service-card">
+        <h3>Social Media Marketing</h3>
+        <p>Build brand loyalty and engagement online.</p>
+      </div>
+    </div>
+    <a href="services.html" class="cta-button">See All Services</a>
+  </section>
+
+  <section class="our-expertise fade-in">
+    <h2>Why Vyomix Digital?</h2>
+    <p>We’re more than just marketers — we’re your partners in digital growth. From SEO to paid ads, we combine strategy, creativity, and data analytics to deliver measurable results for your business. Our team is Google-certified and trusted by brands across industries.</p>
+    <ul>
+      <li>✅ Over 1,200 Page 1 rankings delivered</li>
+      <li>✅ Google Partner Agency</li>
+      <li>✅ Average 3.5X ROI on ad campaigns</li>
+      <li>✅ Proven success in diverse industries</li>
+    </ul>
+  </section>
+  
+
+  <section class="testimonials fade-in">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-card">
+      <p>"Vyomix helped us double our online leads in 3 months. Fantastic team!"</p>
+      <h3>- Jane Doe, CEO of CoolCorp</h3>
+    </div>
+  </section>  
+  <section class="final-cta fade-in">
+    <h2>Ready to Grow Your Business?</h2>
+    <a href="contact.html" class="cta-button">Get Started Today</a>
+  </section>
+  
+</body>
+</html>
+<script>
+  console.log("Home page loaded!");
+  document.addEventListener("DOMContentLoaded", function() {
+    console.log("Document is ready!");
+    const heading = document.querySelector(".hero h1");
+    heading.style.color = "blue";
+    heading.style.textAlign = "center";         
+    console.log("Heading style updated!");
+  });
+</script>
+<!-- Duplicate stylesheet links removed --> 
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const elements = document.querySelectorAll(".fade-in");
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.3 });
+    elements.forEach(el => observer.observe(el));
+  });
+</script>
+
+<footer>
+    <p>&copy; 2025 Vyomix Digital. All rights reserved.</p>
+  </footer>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+<script>
+  // Grab all nav links
+  const navLinks = document.querySelectorAll(".nav-links a");
+
+  // Get current page URL path
+  const currentPage = window.location.pathname;
+
+  navLinks.forEach(link => {
+    if(link.getAttribute("href") === currentPage.split('/').pop()) {
+      link.classList.add("active");
+    }
+  });
+</script>
+<script src="scripts.js"></script>
+</head>
+</html> 
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const counters = document.querySelectorAll(".counter");
+
+    counters.forEach(counter => {
+      const updateCount = () => {
+        const target = +counter.getAttribute("data-target");
+        const count = +counter.innerText;
+        const increment = target / 100; // Adjust speed
+
+        if (count < target) {
+          counter.innerText = Math.ceil(count + increment);
+          setTimeout(updateCount, 30);
+        } else {
+          counter.innerText = target; // Fix rounding
+        }
+      };
+
+      updateCount();
+    });
+  });
+</script>
+
